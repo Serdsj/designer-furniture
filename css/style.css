@@ -1,14 +1,8 @@
-
-
-.designerFurniture44444{
-    color: #303032;
-    font-family: Playfair Display;
-    font-style: normal;  /*  Определяет начертание шрифта: обычное, курсивное или наклонное */
-    font-weight: 700;
-    line-height: 45px; /* 82.65px это межстрочный интервал */ 
-    letter-spacing: 2.85px;   /*задаёт межбуквенное расстояние — интервал между символами в тексте. */
-    text-transform: uppercase;
-    position: absolute;
-    top: 150px;
-    left: 100px;
-} 
+.desinger-of-furniture{
+  background-image: url(/fonts/theFirtst-Background.png);
+  background-repeat: no-repeat;
+  background-position: top; 
+  width: 1447px;
+height: 751px;
+flex-shrink: 0; 
+}
