@@ -2,49 +2,164 @@
 
 <html lang="ru">
   <head>
-    <meta charset="UTF-8"> <!-- это подключаем движок --> 
-    <meta name="description" content="мебель, дизайн, фурнитура"> <!-- это ключевые слова для поиска в браузере --> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- это хз зачем сказали пока не вникать --> 
-    <title>Дизайнерская мебель "Callium"</title>  <!--  Чтобы дать документу название, используй элемент <title> --> 
-    <link rel="stylesheet" href="css/style.css">  <!-- подключаем файлы -->
+    <meta charset="UTF-8"> <!-- это подключаем движок -->
+    <meta name="description" content="мебель, дизайн, фурнитура"> <!-- это ключевые слова для поиска в браузере -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- это хз зачем сказали пока не вникать -->
+    <title>Дизайнерская мебель "Callium"</title> <!--  Чтобы дать документу название, используй элемент <title> -->
+    <link rel="stylesheet" href="css/style.css"> <!-- подключаем файлы -->
     <link rel="stylesheet" href="css/normolise.css"> <!-- подключаем файлы -->
   </head>
 
   <body>
-    <header class="page-header">  <!-- heador это шапка  Заголовок сайта-->
+    <header class="page-header"> <!-- heador это шапка  Заголовок сайта-->
       <div class="firts-box">
-       <div> Логотип компании 
-        </div>
-      <nav>   <!-- В контейнер <nav> помещаются основные ссылки, по которым пользователь сможет быстро перейти на нужный раздел сайта.-->
-      <ul class="listOfmagazine">
-           <li class="listOfitems"> <a href="1" title="мебель ахпер"> мебель </a></li>   <!-- <a> это тег для работы с ссылками внутри него href туда сому ссылку пихаем в нашем случае заглушка, title это то будет выводиться при наведении курсора -->
-           <li class="listOfitems"> <a href="2" title="освещение ахпер"> освещение </a></li>
-           <li class="listOfitems"> <a href="3" title="текстиль ахпер"> текстиль </a></li>
-      </ul>
-    </nav>
+        <div class="left-site">
+        <nav> <!-- В контейнер <nav> помещаются основные ссылки, по которым пользователь сможет быстро перейти на нужный раздел сайта.-->
+          <a class="logo" href="#"> <img class="logo-img" src="img/logo.svg" alt="logo">
+          </a>
+          <ul class="list-of-magazine">
+            <li class="list-of-items"> <a href="#" title="мебель ахпер"> мебель
+              </a></li> <!-- <a> это тег для работы с ссылками внутри него href туда сому ссылку пихаем в нашем случае заглушка, title это то будет выводиться при наведении курсора -->
+            <li class="list-of-items"> <a href="#" title="освещение ахпер">
+                освещение </a></li>
+            <li class="list-of-items"> <a href="#" title="текстиль ахпер">
+                текстиль </a></li>
+          </ul>
+        </nav>
+      </div>
         <ul class="buttoms">
-           <li class="buttomofSearch"> <a href="5" title="кнопка поиска"></a> <span> кнопка поиска </span></li>  <!-- С помощью тега <span> можно выбрать часть текста или другой информации в блоке и стилизовать её. типа как <div> только для слов -->
-           <li class="buttomofbuys"> <a href="4" title="кнопка корзины"></a> <span> кнопка корзины </span></li> 
+          <li class="buttom-of-search"> <a href="5" title="кнопка поиска"></a>
+            <span> кнопка поиска </span></li> <!-- С помощью тега <span> можно выбрать часть текста или другой информации в блоке и стилизовать её. типа как <div> только для слов -->
+          <li class="buttom-of-buys"> <a href="4" title="кнопка корзины"></a>
+            <span> кнопка корзины </span></li>
         </ul>
-          </div>
-     </header>
+      </div>
+    </header>
 
+    <main class="page-main">
+      <section class="desinger-of-furniture">
+        <h1>Дизайнерская мебель</h1>
+        <div class="armchair-background-picture"></div>
+        <div class="item-and-prices-armchair">
+          <p>Кресло “Антиква”</p>
+          <p>$380 <span class="more-cheap-price"> $240 </span></p>
+          <button class="button-buy" type="button">Купить</button>
+        </div>
+      </section>
 
-    <main class="page-main">    
-      <div class="designerFurniture">
-      <h1> Дизайнерская <br>мебель</br> </h1>   <!-- <br> это для переноса на следующую строку  -->
-    </div> 
-      
-      <!-- <nav>Навигация</nav> 
-       <section>
-        <p> Описание 1 </p>
-        <p> Описание 2 </p>
-       </section>  -->
-       <aside>   <!-- Сайдбор боковой движ -->
-      </aside> 
+      <section class="center-of-page">
+        <h2>Новинки</h2>
+        <div class="list">
+          <ul class="furniture">
+            <li class="item">
+              <div class="picture-of-furniture"></div>
+              <a href="1">
+                <p>Стул «Смеркается»</p>
+                <p>$280</p>
+              </a>
+            </li>
+            <li class="item">
+              <div class="picture-of-furniture"></div>
+              <a href="2">
+                <p> Люстра «Облако»</p>
+                <p> $250</p>
+              </a>
+            </li>
+            <li class="item">
+              <div class="picture-of-furniture"></div>
+              <a href="3">
+                <p> Стол «Крем брюле» </p>
+                <p> $320 </p>
+              </a>
+            </li>
+            <li class="item">
+              <div class="picture-of-furniture"></div>
+              <a href="4">
+                <p> Стул офисный «Белый шоколад» </p>
+                <p> $120 </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="client-picture"></div>
+        <div class="student">
+          <p> Елена Новикова</p>
+          <p> студентка</p>
+          <p> «Хочу поделиться своими впечатлениями по использованию дивана
+            «Бродвей»,
+            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое
+            сотрудникам этого чудесного магазина.»</p>
+        </div>
+      </section>
+
+      <section class="last-chance">
+        <div class="assortment">
+          <h2> ПОСЛЕДНИЙ ШАНС </h2>
+          <ul class="next-furniture">
+            <li class="furniture-item"> <a href="#"> Стулья </a></li>
+            <li class="furniture-item"> <a href="#"> Диваны </a></li>
+            <li class="furniture-item"> <a href="#"> Кресла </a></li>
+          </ul>
+        </div>
+        <div class="cards">
+          <ul class="list-cards">
+            <li class="cards-item"> <p> Стул «Карамель»</p> <p> <span
+                  class="more-cheap-price"> $195</span> $240 </p>
+              <img src="">
+              <button class="button-buy" type="button">Купить</button>
+            </li>
+            <li class="cards-item"> <p>Стул «Облако»</p> <p> <span
+                  class="more-cheap-price">$200</span> $250 </p>
+              <img src="">
+            </li>
+            <li class="cards-item"> <p>Стул «Сова»</p> <p> <span
+                  class="more-cheap-price">$240</span> $260 </p>
+              <img src="">
+            </li>
+            <li class="cards-item"> <p>Стул «Мая»</p> <p> <span
+                  class="more-cheap-price">$280</span> $330 </p>
+              <img src="">
+            </li>
+            <li class="cards-item"> <p>Стул «Месси»</p> <p> <span
+                  class="more-cheap-price">$280</span> $305 </p>
+              <img src="">
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer class="page-footer">   <!-- Подвал сайта  -->
+    <footer class="page-footer"> <!-- Подвал сайта  -->
+      <section>
+        <div class="logo-of-the-company"> Логотип компании
+        </div>
+        <div class="services">
+          <ul class="additional-services">
+            <li class="ltem-services"> <a href="1"> ДОСТАВКА
+              </a></li>
+            <li class="ltem-services"> <a href="2">
+                ОПЛАТА </a></li>
+            <li class="ltem-services"> <a href="3">
+                КОНТАКТЫ </a></li>
+            <li class="ltem-services"> <a href="4">
+                ГАРАНТИИ </a></li>
+            <div class="last-info">
+              <p class="contact-info">
+                <img src="">
+                <a href="+7(495) 205-28-14"> +7(495) 205-28-14</a>
+                <img src="">
+                <a href="callium@gmail.com"> callium@gmail.com</a>
+              </p>
+            </div>
+          </ul>
+        </div>
+
+      </section>
+
+
     </footer>
   </body>
 </html>
