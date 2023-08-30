@@ -1,8 +1,76 @@
-.desinger-of-furniture{
+
+
+
+
+
+.background {
+  
+  width: 1447px;
+  height: 751px;
+  flex-shrink: 0;
   background-image: url(/fonts/theFirtst-Background.png);
   background-repeat: no-repeat;
-  background-position: top; 
-  width: 1447px;
-height: 751px;
-flex-shrink: 0; 
+  background-size: auto;
+  background-color: lightgray 50%;
+  background-position: right;
+  
 }
+
+
+
+/* .right-side{
+  width: 524px;
+height: 751px;
+flex-shrink: 0;
+background-image: url(/fonts/theFirtst-Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray 50%;
+  background-position: center;
+} */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-of-magazine {
+  display: flex;
+ gap: 0 60px;
+ margin-left: 293px;
+  margin-top: 90px;
+
+}
+
+.list-of-items {
+  color: #303032;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.82px;
+text-transform: uppercase;
+
+}
+
+.logo {
+  fill: #000;
+  width: 19.365px;
+  height: 20px;
+  flex-shrink: 0; 
+}
+ 
+
+.the-first-title{
+  color: #303032;
+  font-family: Playfair Display;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%; /* 82.65px */
+  letter-spacing: 2.85px;
+  text-transform: uppercase;
+} 
