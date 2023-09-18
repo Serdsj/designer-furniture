@@ -1,0 +1,90 @@
+.center-of-page {
+    max-width: 1170px;
+    max-height: 614px;
+    box-sizing: border-box;  /* благодаря этому не даем увеличиваться элементу, из padding, border и т.д. */
+     overflow: hidden;  /* здесь я обрезаю контент поэтому происходит пиздец на картинках  */
+     margin: 0 auto;
+     margin-top: 120px;
+  }
+  
+  h2 {
+    color: #303032;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+  }
+  
+  .black-line {
+    background: #303032;
+    width: 90px;
+    height: 4px;
+    flex-shrink: 0;
+    margin-top: -10px;
+  }
+  
+  
+  .furniture {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  /* .stool-shine {
+   order: 2;
+  }
+  
+  .lamp-cloud {
+    order: 0;
+  }
+  
+  .table-cream {
+  order: 1;
+  }
+  
+  .white-chocolate {
+    order: 3;
+   }       крч я не знаю как сдвинуть эти элементы посидеть с Семеном  */
+  
+  
+  .div-of-furniture {
+    width: 270px;
+    height: 289px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+  }
+  
+  
+  .item:first-child .div-of-furniture {
+    padding: 20px 48px 100px 47px;   /*Сверху 20 пикселей —> справа 48 пикселей —> снизу 100 пикселей —> слева 47 пикселей. */
+  }
+  
+  .item:nth-child(2) .div-of-furniture {
+    padding: 1px 32px 62px 36px;
+  }
+  
+  .item:nth-child(3) .div-of-furniture {
+    padding-top: 1px;
+    padding-bottom: 90px;
+    background: #FAECE9;
+  }
+  
+  
+  .item:last-child .div-of-furniture {
+    width: 570px;
+    height: 614px;
+    padding: 19px 37px 129px 43px;
+  }
+  
+  
+  .div-of-furniture p {
+    text-align: center;
+  }
+  
+  .div-of-furniture .move-prices {
+    margin-top: -7px;
+  }

@@ -1,0 +1,117 @@
+.background {
+    box-sizing: border-box; /* я эту штуку добавил чтобы не не увеличевались размеры контейнера из-за падинга */
+     max-width: 1447px;
+     width: 100%;
+    flex-shrink: 0;
+    background-image: url(/fonts/theFirtst-Background.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-color: lightgray 50%;
+    background-position: right;
+    margin: 0 auto; /* здесь я перенес блок в центр страницы, узнат как можно было сделать по уму  */
+    padding: 0 10px;
+  
+  }
+  
+  .logo {
+    fill: #000;
+    width: 19.365px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  
+  
+  .nav-menu {
+    /* padding-top: 90px; */
+    padding: 0;
+    width: 100%;
+    position: relative;
+    /* расстянуть на всю ширину контейнера */
+  }
+  
+  .list-of-magazine {
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+
+  
+ 
+
+  
+  .text-style {
+    color: #303032;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.82px;
+    text-transform: uppercase;
+  }
+  
+  .style-buttom-of-search {
+    background-color: transparent;/* делаем прозрачный фон у кнопки  */
+    border: #ccc;
+  }
+  
+  .style-buttom-of-rectangle {
+    background-color: transparent; /* делаем прозрачный фон у кнопки  */
+    border: #ccc;
+  }
+  
+  .the-first-title {
+    color: #303032;
+    font-family: Playfair Display;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%;
+    letter-spacing: 2.85px;
+    text-transform: uppercase;
+  }
+  
+  
+  .desinger-of-furniture {
+    padding-top: 125px;
+    padding-left: 135px;
+    /*учитывая что мы двигаемся в рамках контейнера мы падингом и двигаем  */
+  }
+  
+  .antikva {
+    color: #303032;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  
+  .more-cheap-price {
+    color: #303032;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .button-buy {
+    width: 238px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #303032;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+    /* задать вопрос, норм ли это тема. Вот так все в один класс засовывать */
+  }
